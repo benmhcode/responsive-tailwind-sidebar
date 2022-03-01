@@ -27,8 +27,8 @@ function Sidebar() {
         </svg>
       )}
 
-      <div
-        className={`top-20 md:top-24  left-0  w-[55vw]  rounded-b-md bg-blue-600  p-10 pl-20 text-white fixed  z-40 ease-in-out duration-300 ${
+      <div style={{height: '80vh'}}
+        className={`top-[12vh] left-0  w-[55vw] rounded-b-md bg-blue-600  p-10 pl-20 text-white fixed  z-40 ease-in-out duration-300 ${
           showSidebar ? "-translate-x-0 " : "-translate-x-full"
         }`}
       >
