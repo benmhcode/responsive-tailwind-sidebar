@@ -1,11 +1,16 @@
+import Header from "../Header";
 import Sidebar from "../Sidebar";
-import Main
+import Footer from "../Footer";
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <Sidebar />
-      App
+    <div className="flex flex-col justify-between min-h-screen">
+      <Header />
+      <div className="flex items-center justify-center py-2">
+        <Sidebar />
+        App
+      </div>
+      <Footer />
     </div>
   );
 }
